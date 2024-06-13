@@ -1,0 +1,6329 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='TYwalls'>
+    <pose>0 0 2.5 0 0 0</pose>
+    <link name='Wall_E1'>
+      <pose>-18.75 27.6 0 0 0 0</pose>
+      <collision name='Wall_E1_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_E1_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_E2'>
+      <pose>-13.05 27.6 0 0 0 0</pose>
+      <collision name='Wall_E2_Collision'>
+        <geometry>
+          <box>
+            <size>3.7 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_E2_Visual'>
+        <geometry>
+          <box>
+            <size>3.7 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_E3'>
+      <pose>-3.75 27.6 0 0 0 0</pose>
+      <collision name='Wall_E3_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_E3_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_E4'>
+      <pose>3.75 27.6 0 0 0 0</pose>
+      <collision name='Wall_E4_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_E4_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+
+    <link name='Wall_RE1'>
+      <pose>-18.75 -27.6 0 0 0 0</pose>
+      <collision name='Wall_RE1_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_RE1_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_RE2'>
+      <pose>-11.25 -27.6 0 0 0 0</pose>
+      <collision name='Wall_RE2_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_RE2_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_RE3'>
+      <pose>-3.75 -27.6 0 0 0 0</pose>
+      <collision name='Wall_RE3_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_RE3_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_RE4'>
+      <pose>3.75 -27.6 0 0 0 0</pose>
+      <collision name='Wall_RE4_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_RE4_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+
+
+    <link name='Wall_S1'>
+      <pose>7.6 25.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S1_Collision'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S1_Visual'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S2'>
+      <pose>7.6 20 0 0 0 1.5707</pose>
+      <collision name='Wall_S2_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S2_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S3'>
+      <pose>7.6 15.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S3_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S3_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S4'>
+      <pose>7.6 10.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S4_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S4_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S5'>
+      <pose>7.6 5.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S5_Collision'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S5_Visual'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S6'>
+      <pose>7.6 0 0 0 0 1.5707</pose>
+      <collision name='Wall_S6_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S6_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S7'>
+      <pose>7.6 -5.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S7_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S7_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S8'>
+      <pose>7.6 -10.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S8_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S8_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S9'>
+      <pose>7.6 -15.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S9_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S9_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S10'>
+      <pose>7.6 -20.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S10_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S10_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S11'>
+      <pose>7.6 -25.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S11_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S11_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S12a'>
+      <pose>7.6 -28.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S12a_Collision'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S12a_Visual'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S12b'>
+      <pose>7.6 -32.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S12b_Collision'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S12b_Visual'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S13'>
+      <pose>7.6 -35.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S13_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S13_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S14'>
+      <pose>7.6 -40.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S14_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S14_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S15'>
+      <pose>7.6 -45.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S15_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S15_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_S16'>
+      <pose>7.6 -50.0 0 0 0 1.5707</pose>
+      <collision name='Wall_S16_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_S16_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+
+    <link name='Wall_N1'>
+      <pose>-22.6 25.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N1_Collision'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N1_Visual'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N2'>
+      <pose>-22.6 20 0 0 0 1.5707</pose>
+      <collision name='Wall_N2_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N2_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N3'>
+      <pose>-22.6 15.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N3_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N3_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N4'>
+      <pose>-22.6 10.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N4_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N4_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N5'>
+      <pose>-22.6 5.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N5_Collision'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N5_Visual'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N6'>
+      <pose>-22.6 0 0 0 0 1.5707</pose>
+      <collision name='Wall_N6_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N6_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N7'>
+      <pose>-22.6 -5.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N7_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N7_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N8'>
+      <pose>-22.6 -10.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N8_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N8_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N9'>
+      <pose>-22.6 -15.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N9_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N9_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N10'>
+      <pose>-22.6 -20.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N10_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N10_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N11'>
+      <pose>-22.6 -25.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N11_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N11_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N12a'>
+      <pose>-22.6 -28.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N12a_Collision'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N12_Visual'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N12b'>
+      <pose>-22.6 -32.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N12b_Collision'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N12_Visual'>
+        <geometry>
+          <box>
+            <size>0.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N13'>
+      <pose>-22.6 -35.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N15_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N15_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N16'>
+      <pose>-22.6 -40.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N16_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N16_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N17'>
+      <pose>-22.6 -45.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N17_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N17_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_N18'>
+      <pose>-22.6 -50.0 0 0 0 1.5707</pose>
+      <collision name='Wall_N18_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_N18_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+
+    <link name='Wall_RW1'>
+      <pose>-18.75 -32.4 0 0 0 0</pose>
+      <collision name='Wall_RW1_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_RW1_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_RW2'>
+      <pose>-11.25 -32.4 0 0 0 0</pose>
+      <collision name='Wall_RW2_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_RW2_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_RW3'>
+      <pose>-2.175 -32.4 0 0 0 0</pose>
+      <collision name='Wall_RW3_Collision'>
+        <geometry>
+          <box>
+            <size>4.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_W3_Visual'>
+        <geometry>
+          <box>
+            <size>4.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_RW4'>
+      <pose>3.75 -32.4 0 0 0 0</pose>
+      <collision name='Wall_RW4_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_RW4_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+
+    <link name='Wall_W1'>
+      <pose>-18.75 -52.6 0 0 0 0</pose>
+      <collision name='Wall_W1_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_W1_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_W2'>
+      <pose>-11.25 -52.6 0 0 0 0</pose>
+      <collision name='Wall_W2_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_W2_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_W3'>
+      <pose>-3.75 -52.6 0 0 0 0</pose>
+      <collision name='Wall_W3_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_W3_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_W4'>
+      <pose>3.75 -52.6 0 0 0 0</pose>
+      <collision name='Wall_W4_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_W4_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+
+    <link name='Wall_Entrance_1'>
+      <pose>-24.35 -28.4 -0.5 0 0 0</pose>
+      <collision name='Wall_Entrance_1_Collision'>
+        <geometry>
+          <box>
+            <size>3.5 0.15 2.5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_Entrance_1_Visual'>
+        <geometry>
+          <box>
+            <size>3.5 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.9 0.0 0.0 1</ambient>
+          <diffuse>0.9 0.0 0.0 1</diffuse>
+          <specular>0.9 0.1 0.1 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_Entrance_2'>
+      <pose>-24.35 -31.6 -0.5 0 0 0</pose>
+      <collision name='Wall_Entrance_2_Collision'>
+        <geometry>
+          <box>
+            <size>3.5 0.15 2.5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_Entrance_2_Visual'>
+        <geometry>
+          <box>
+            <size>3.5 0.15 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.9 0.0 0.0 1</ambient>
+          <diffuse>0.9 0.0 0.0 1</diffuse>
+          <specular>0.9 0.1 0.1 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_Entrance_3'>
+      <pose>-24.35 -30.0 0.675 0 0 0</pose>
+      <collision name='Wall_Entrance_3_Collision'>
+        <geometry>
+          <box>
+            <size>3.5 3.15 0.15</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_Entrance_3_Visual'>
+        <geometry>
+          <box>
+            <size>3.5 3.15 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.9 0.0 0.0 1</ambient>
+          <diffuse>0.9 0.0 0.0 1</diffuse>
+          <specular>0.9 0.1 0.1 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_Entrance_4'>
+      <pose>-22.6 -30.0 1.6 0 0 1.57</pose>
+      <collision name='Wall_Entrance_4_Collision'>
+        <geometry>
+          <box>
+            <size>3.2 0.15 1.8</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_Entrance_4_Visual'>
+        <geometry>
+          <box>
+            <size>3.2 0.15 1.8</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.9 0.0 0.0 1</ambient>
+          <diffuse>0.9 0.0 0.0 1</diffuse>
+          <specular>0.9 0.1 0.1 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_Entrance_5'>
+      <pose>-22.75 -30.0 1.4 0 0 1.57</pose>
+      <collision name='Wall_Entrance_5_Collision'>
+        <geometry>
+          <box>
+            <size>1.5 0.15 1.5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_Entrance_5_Visual'>
+        <geometry>
+          <box>
+            <size>1.5 0.15 1.5</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://avular_logo/materials/textures/avular_logo.png</albedo_map>
+              <normal_map>model://avular_logo/materials/textures/avular_logo.png</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+
+    <link name='Wall_I01'>
+      <pose>-15.075 -25.7 0 0 0 1.5707</pose>
+      <collision name='Wall_I01_Collision'>
+        <geometry>
+          <box>
+            <size>3.4 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I01_Visual'>
+        <geometry>
+          <box>
+            <size>3.4 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I02'>
+      <pose>-15.075 -22.6 0 0 0 1.5707</pose>
+      <collision name='Wall_I02_Collision'>
+        <geometry>
+          <box>
+            <size>0.4 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I02_Visual'>
+        <geometry>
+          <box>
+            <size>0.4 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I03'>
+      <pose>-9.375 -22.4 0 0 0 0</pose>
+      <collision name='Wall_I03_Collision'>
+        <geometry>
+          <box>
+            <size>11.55 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I03_Visual'>
+        <geometry>
+          <box>
+            <size>11.55 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I04'>
+      <pose>-1.73 -22.72 0 0 0 0</pose>
+      <collision name='Wall_I04_Collision'>
+        <geometry>
+          <box>
+            <size>3.75 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I04_Visual'>
+        <geometry>
+          <box>
+            <size>3.75 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I05'>
+      <pose>0.065 -25.15 0 0 0 1.5707</pose>
+      <collision name='Wall_I05_Collision'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I05_Visual'>
+        <geometry>
+          <box>
+            <size>4.8 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I06'>
+      <pose>-3.68 -22.635 0 0 0 1.5707</pose>
+      <collision name='Wall_I06_Collision'>
+        <geometry>
+          <box>
+            <size>0.33 0.16 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I06_Visual'>
+        <geometry>
+          <box>
+            <size>0.33 0.16 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+
+    <link name='Wall_I07'>
+      <pose>-11.25 22.6 0 0 0 1.5707</pose>
+      <collision name='Wall_I07_Collision'>
+        <geometry>
+          <box>
+            <size>9.9 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I07_Visual'>
+        <geometry>
+          <box>
+            <size>9.9 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I08'>
+      <pose>-10.75 17.725 0 0 0 0</pose>
+      <collision name='Wall_I08_Collision'>
+        <geometry>
+          <box>
+            <size>0.85 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I08_Visual'>
+        <geometry>
+          <box>
+            <size>0.85 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I09'>
+      <pose>-7.9275 17.725 0 0 0 0</pose>
+      <collision name='Wall_I09_Collision'>
+        <geometry>
+          <box>
+            <size>1.15 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I09_Visual'>
+        <geometry>
+          <box>
+            <size>1.15 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I10'>
+      <pose>-5.525 17.5 0 0 0 0</pose>
+      <collision name='Wall_I10_Collision'>
+        <geometry>
+          <box>
+            <size>3.675 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I10_Visual'>
+        <geometry>
+          <box>
+            <size>3.675 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I11'>
+      <pose>-3.75 14.85 0 0 0 1.5707</pose>
+      <collision name='Wall_I11_Collision'>
+        <geometry>
+          <box>
+            <size>5.3 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I11_Visual'>
+        <geometry>
+          <box>
+            <size>5.3 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I12'>
+      <pose>1.925 12.275 0 0 0 0</pose>
+      <collision name='Wall_I12_Collision'>
+        <geometry>
+          <box>
+            <size>11.575 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I12_Visual'>
+        <geometry>
+          <box>
+            <size>11.475 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I13'>
+      <pose>-7.5 26.925 0 0 0 1.5707</pose>
+      <collision name='Wall_I13_Collision'>
+        <geometry>
+          <box>
+            <size>0.85 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I13_Visual'>
+        <geometry>
+          <box>
+            <size>0.85 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I14'>
+      <pose>-7.5 23.075 0 0 0 1.5707</pose>
+      <collision name='Wall_I14_Collision'>
+        <geometry>
+          <box>
+            <size>0.85 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I14_Visual'>
+        <geometry>
+          <box>
+            <size>0.85 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I15'>
+      <pose>-3.75 22.5 0 0 0 0</pose>
+      <collision name='Wall_I15_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I15_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I16'>
+      <pose>0 25 0 0 0 1.5705</pose>
+      <collision name='Wall_I16_Collision'>
+        <geometry>
+          <box>
+            <size>4.7 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I16_Visual'>
+        <geometry>
+          <box>
+            <size>4.7 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I17'>
+      <pose>0 20 0 0 0 1.5705</pose>
+      <collision name='Wall_I17_Collision'>
+        <geometry>
+          <box>
+            <size>4.7 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I17_Visual'>
+        <geometry>
+          <box>
+            <size>4.7 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I18'>
+      <pose>0 15 0 0 0 1.5705</pose>
+      <collision name='Wall_I18_Collision'>
+        <geometry>
+          <box>
+            <size>4.7 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I18_Visual'>
+        <geometry>
+          <box>
+            <size>4.7 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I19'>
+      <pose>-3.225 17.575 0 0 0 0</pose>
+      <collision name='Wall_I19_Collision'>
+        <geometry>
+          <box>
+            <size>1.0 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I19_Visual'>
+        <geometry>
+          <box>
+            <size>1.0 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I20'>
+      <pose>-0.575 17.575 0 0 0 0</pose>
+      <collision name='Wall_I20_Collision'>
+        <geometry>
+          <box>
+            <size>1.0 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I20_Visual'>
+        <geometry>
+          <box>
+            <size>1.0 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I21'>
+      <pose>-1.9 16.5 0 0 0 0</pose>
+      <collision name='Wall_I21_Collision'>
+        <geometry>
+          <box>
+            <size>1.95 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I21_Visual'>
+        <geometry>
+          <box>
+            <size>1.95 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I22'>
+      <pose>-1 17.0 0 0 0 1.5707</pose>
+      <collision name='Wall_I22_Collision'>
+        <geometry>
+          <box>
+            <size>1.0 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I22_Visual'>
+        <geometry>
+          <box>
+            <size>1.0 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I23'>
+      <pose>-2.8 17.0 0 0 0 1.5707</pose>
+      <collision name='Wall_I23_Collision'>
+        <geometry>
+          <box>
+            <size>1.0 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I23_Visual'>
+        <geometry>
+          <box>
+            <size>1.0 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I24'>
+      <pose>-3.75 22.175 0 0 0 1.5707</pose>
+      <collision name='Wall_I24_Collision'>
+        <geometry>
+          <box>
+            <size>0.35 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I24_Visual'>
+        <geometry>
+          <box>
+            <size>0.35 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I25'>
+      <pose>-3.6 21.15 0 0 0 1.5707</pose>
+      <collision name='Wall_I25_Collision'>
+        <geometry>
+          <box>
+            <size>1.65 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I25_Visual'>
+        <geometry>
+          <box>
+            <size>1.65 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I26'>
+      <pose>-3.75 20.175 0 0 0 1.5707</pose>
+      <collision name='Wall_I26_Collision'>
+        <geometry>
+          <box>
+            <size>0.35 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I26_Visual'>
+        <geometry>
+          <box>
+            <size>0.35 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I27'>
+      <pose>-1.875 20.075 0 0 0 0</pose>
+      <collision name='Wall_I27_Collision'>
+        <geometry>
+          <box>
+            <size>3.75 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I27_Visual'>
+        <geometry>
+          <box>
+            <size>3.75 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+
+    <link name='Wall_I28'>
+      <pose>-14.77 -35.075 0 0 0 1.5707</pose>
+      <collision name='Wall_I28_Collision'>
+        <geometry>
+          <box>
+            <size>4.85 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I28_Visual'>
+        <geometry>
+          <box>
+            <size>4.85 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I29'>
+      <pose>-7.425 -35.0 0 0 0 1.5707</pose>
+      <collision name='Wall_I29_Collision'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I29_Visual'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I30'>
+      <pose>-11.25 -37.575 0 0 0 0</pose>
+      <collision name='Wall_I30_Collision'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I30_Visual'>
+        <geometry>
+          <box>
+            <size>7.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I31a'>
+      <pose>-0.075 -47.5 0 0 0 1.5707</pose>
+      <collision name='Wall_I31a_Collision'>
+        <geometry>
+          <box>
+            <size>9.7 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I31a_Visual'>
+        <geometry>
+          <box>
+            <size>9.7 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I31b'>
+      <pose>-0.075 -35. 0 0 0 1.5707</pose>
+      <collision name='Wall_I31b_Collision'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I31b_Visual'>
+        <geometry>
+          <box>
+            <size>4.7 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I32'>
+      <pose>-7.575 -47.5 0 0 0 1.5707</pose>
+      <collision name='Wall_I32_Collision'>
+        <geometry>
+          <box>
+            <size>9.7 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I32_Visual'>
+        <geometry>
+          <box>
+            <size>9.7 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I33'>
+      <pose>-4.75 -42.425 0 0 0 0.0</pose>
+      <collision name='Wall_I33_Collision'>
+        <geometry>
+          <box>
+            <size>5.3 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I33_Visual'>
+        <geometry>
+          <box>
+            <size>5.3 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I34'>
+      <pose>-4.2 -34.55 0 0 0 1.5707</pose>
+      <collision name='Wall_I34_Collision'>
+        <geometry>
+          <box>
+            <size>4.0 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I34_Visual'>
+        <geometry>
+          <box>
+            <size>4.0 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+    <link name='Wall_I35'>
+      <pose>-2.175 -36.575 0 0 0 0.0</pose>
+      <collision name='Wall_I35_Collision'>
+        <geometry>
+          <box>
+            <size>4.2 0.15 5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='Wall_I35_Visual'>
+        <geometry>
+          <box>
+            <size>4.2 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+    </link>
+
+
+
+    <link name='column_01'>
+      <pose>-22.5 27.5 0 0 0 0</pose>
+      <visual name='column_01_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_02'>
+      <pose>-15.0 27.5 0 0 0 0</pose>
+      <visual name='column_02_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_03'>
+      <pose>-7.5 27.5 0 0 0 0</pose>
+      <visual name='column_03_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_04'>
+      <pose>0 27.5 0 0 0 0</pose>
+      <visual name='column_04_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_05'>
+      <pose>7.5 27.5 0 0 -0 0</pose>
+      <visual name='column_00_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_07'>
+      <pose>-22.5 22.5 0 0 0 0</pose>
+      <visual name='column_07_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_08'>
+      <pose>-15.0 22.5 0 0 0 0</pose>
+      <visual name='column_08_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_09'>
+      <pose>-7.5 22.5 0 0 0 0</pose>
+      <visual name='column_09_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_10'>
+      <pose>0 22.5 0 0 0 0</pose>
+      <visual name='column_010_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_11'>
+      <pose>7.5 22.5 0 0 -0 0</pose>
+      <visual name='column_11_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_13'>
+      <pose>-22.5 17.5 0 0 0 0</pose>
+      <visual name='column_13_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_14'>
+      <pose>-15.0 17.5 0 0 0 0</pose>
+      <visual name='column_14_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_15'>
+      <pose>-7.5 17.5 0 0 0 0</pose>
+      <visual name='column_15_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_16'>
+      <pose>0 17.5 0 0 0 0</pose>
+      <visual name='column_16_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_17'>
+      <pose>7.5 17.5 0 0 -0 0</pose>
+      <visual name='column_17_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_19'>
+      <pose>-22.5 12.5 0 0 0 0</pose>
+      <visual name='column_19_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_20'>
+      <pose>-15.0 12.5 0 0 0 0</pose>
+      <visual name='column_20_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_21'>
+      <pose>-7.5 12.5 0 0 0 0</pose>
+      <visual name='column_21_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_22'>
+      <pose>0 12.5 0 0 0 0</pose>
+      <visual name='column_22_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_23'>
+      <pose>7.5 12.5 0 0 -0 0</pose>
+      <visual name='column_23_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_25'>
+      <pose>-22.5 7.5 0 0 0 0</pose>
+      <visual name='column_25_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_26'>
+      <pose>-15.0 7.5 0 0 0 0</pose>
+      <visual name='column_26_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_27'>
+      <pose>-7.5 7.5 0 0 0 0</pose>
+      <visual name='column_27_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_28'>
+      <pose>0 7.5 0 0 0 0</pose>
+      <visual name='column_28_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_29'>
+      <pose>7.5 7.5 0 0 -0 0</pose>
+      <visual name='column_29_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_31'>
+      <pose>-22.5 2.5 0 0 0 0</pose>
+      <visual name='column_31_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_32'>
+      <pose>-15.0 2.5 0 0 0 0</pose>
+      <visual name='column_32_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_33'>
+      <pose>-7.5 2.5 0 0 0 0</pose>
+      <visual name='column_33_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_34'>
+      <pose>0 2.5 0 0 0 0</pose>
+      <visual name='column_34_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_35'>
+      <pose>7.5 2.5 0 0 -0 0</pose>
+      <visual name='column_35_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_37'>
+      <pose>-22.5 -2.5 0 0 0 0</pose>
+      <visual name='column_37_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_38'>
+      <pose>-15.0 -2.5 0 0 0 0</pose>
+      <visual name='column_38_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_39'>
+      <pose>-7.5 -2.5 0 0 0 0</pose>
+      <visual name='column_39_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_40'>
+      <pose>0 -2.5 0 0 0 0</pose>
+      <visual name='column_40_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_41'>
+      <pose>7.5 -2.5 0 0 -0 0</pose>
+      <visual name='column_41_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_43'>
+      <pose>-22.5 -2.5 0 0 0 0</pose>
+      <visual name='column_43_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_44'>
+      <pose>-15.0 -2.5 0 0 0 0</pose>
+      <visual name='column_44_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_45'>
+      <pose>-7.5 -2.5 0 0 0 0</pose>
+      <visual name='column_45_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_46'>
+      <pose>0 -2.5 0 0 0 0</pose>
+      <visual name='column_46_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_47'>
+      <pose>7.5 -2.5 0 0 -0 0</pose>
+      <visual name='column_47_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_49'>
+      <pose>-22.5 -7.5 0 0 0 0</pose>
+      <visual name='column_49_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_50'>
+      <pose>-15.0 -7.5 0 0 0 0</pose>
+      <visual name='column_50_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_51'>
+      <pose>-7.5 -7.5 0 0 0 0</pose>
+      <visual name='column_51_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_52'>
+      <pose>0 -7.5 0 0 0 0</pose>
+      <visual name='column_52_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_53'>
+      <pose>7.5 -7.5 0 0 -0 0</pose>
+      <visual name='column_53_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_55'>
+      <pose>-22.5 -12.5 0 0 0 0</pose>
+      <visual name='column_55_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_56'>
+      <pose>-15.0 -12.5 0 0 0 0</pose>
+      <visual name='column_56_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_57'>
+      <pose>-7.5 -12.5 0 0 0 0</pose>
+      <visual name='column_57_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_58'>
+      <pose>0 -12.5 0 0 0 0</pose>
+      <visual name='column_58_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_59'>
+      <pose>7.5 -12.5 0 0 -0 0</pose>
+      <visual name='column_59_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_61'>
+      <pose>-22.5 -17.5 0 0 0 0</pose>
+      <visual name='column_61_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_62'>
+      <pose>-15.0 -17.5 0 0 0 0</pose>
+      <visual name='column_62_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_63'>
+      <pose>-7.5 -17.5 0 0 0 0</pose>
+      <visual name='column_63_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_64'>
+      <pose>0 -17.5 0 0 0 0</pose>
+      <visual name='column_64_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_65'>
+      <pose>7.5 -17.5 0 0 -0 0</pose>
+      <visual name='column_65_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_67'>
+      <pose>-22.5 -22.5 0 0 0 0</pose>
+      <visual name='column_67_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_68'>
+      <pose>-15.0 -22.5 0 0 0 0</pose>
+      <visual name='column_68_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_69'>
+      <pose>-7.5 -22.5 0 0 0 0</pose>
+      <visual name='column_69_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_70'>
+      <pose>0 -22.5 0 0 0 0</pose>
+      <visual name='column_70_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_71'>
+      <pose>7.5 -22.5 0 0 -0 0</pose>
+      <visual name='column_71_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_72'>
+      <pose>-22.5 -27.5 0 0 0 0</pose>
+      <visual name='column_72_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_73'>
+      <pose>-15.0 -27.5 0 0 0 0</pose>
+      <visual name='column_73_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_74'>
+      <pose>-7.5 -27.5 0 0 0 0</pose>
+      <visual name='column_74_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_75'>
+      <pose>0 -27.5 0 0 0 0</pose>
+      <visual name='column_75_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_76'>
+      <pose>7.5 -27.5 0 0 -0 0</pose>
+      <visual name='column_76_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_77'>
+      <pose>-22.5 -32.5 0 0 0 0</pose>
+      <visual name='column_77_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_78'>
+      <pose>-15.0 -32.5 0 0 0 0</pose>
+      <visual name='column_78_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_79'>
+      <pose>-7.5 -32.5 0 0 0 0</pose>
+      <visual name='column_79_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_80'>
+      <pose>0 -32.5 0 0 0 0</pose>
+      <visual name='column_80_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_81'>
+      <pose>7.5 -32.5 0 0 -0 0</pose>
+      <visual name='column_81_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_82'>
+      <pose>-22.5 -37.5 0 0 0 0</pose>
+      <visual name='column_82_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_83'>
+      <pose>-15.0 -37.5 0 0 0 0</pose>
+      <visual name='column_83_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_84'>
+      <pose>-7.5 -37.5 0 0 0 0</pose>
+      <visual name='column_84_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_85'>
+      <pose>0 -37.5 0 0 0 0</pose>
+      <visual name='column_85_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_86'>
+      <pose>7.5 -37.5 0 0 -0 0</pose>
+      <visual name='column_86_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_87'>
+      <pose>-22.5 -42.5 0 0 0 0</pose>
+      <visual name='column_87_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_88'>
+      <pose>-15.0 -42.5 0 0 0 0</pose>
+      <visual name='column_88_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_88a'>
+      <pose>-11.75 -42.5 0 0 0 0</pose>
+      <visual name='column_88a_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_89'>
+      <pose>-7.5 -42.5 0 0 0 0</pose>
+      <visual name='column_89_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_90'>
+      <pose>0 -42.5 0 0 0 0</pose>
+      <visual name='column_90_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_91'>
+      <pose>7.5 -42.5 0 0 -0 0</pose>
+      <visual name='column_91_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_92'>
+      <pose>-22.5 -47.5 0 0 0 0</pose>
+      <visual name='column_92_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_93'>
+      <pose>-15.0 -47.5 0 0 0 0</pose>
+      <visual name='column_93_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_93a'>
+      <pose>-11.25 -47.5 0 0 0 0</pose>
+      <visual name='column_93a_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_94'>
+      <pose>-7.5 -47.5 0 0 0 0</pose>
+      <visual name='column_94_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_95'>
+      <pose>0 -47.5 0 0 0 0</pose>
+      <visual name='column_95_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_96'>
+      <pose>7.5 -47.5 0 0 -0 0</pose>
+      <visual name='column_96_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_97'>
+      <pose>-22.5 -52.5 0 0 0 0</pose>
+      <visual name='column_97_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_98'>
+      <pose>-15.0 -52.5 0 0 0 0</pose>
+      <visual name='column_98_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_99'>
+      <pose>-7.5 -52.5 0 0 0 0</pose>
+      <visual name='column_99_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_100'>
+      <pose>0 -52.5 0 0 0 0</pose>
+      <visual name='column_100_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='column_101'>
+      <pose>7.5 -52.5 0 0 -0 0</pose>
+      <visual name='column_101_visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.3 0.3 5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='base_01'>
+      <pose>-22.35 -37.5 -2 0 0 1.5707</pose>
+      <visual name='base_011_visual'>
+        <geometry>
+          <box>
+            <size>1.0 0.3 1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.0 0.3 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='base_02'>
+      <pose>-22.35 -42.5 -2 0 0 1.5707</pose>
+      <visual name='base_02_visual'>
+        <geometry>
+          <box>
+            <size>1.0 0.3 1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.0 0.3 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='base_03'>
+      <pose>-22.35 -47.5 -2 0 0 1.5707</pose>
+      <visual name='base_03_visual'>
+        <geometry>
+          <box>
+            <size>1.0 0.3 1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.0 0.3 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='base_04'>
+      <pose>-22.3 -52.3 -2 0 0 1.5707</pose>
+      <visual name='base_04_visual'>
+        <geometry>
+          <box>
+            <size>0.4 0.4 1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.4 0.4 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='base_05'>
+      <pose>-22.3 -32.7 -2 0 0 0</pose>
+      <visual name='base_05_visual'>
+        <geometry>
+          <box>
+            <size>0.4 0.4 1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.4 0.4 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='base_06'>
+      <pose>-15.0 -52.35 -2 0 0 0</pose>
+      <visual name='base_06_visual'>
+        <geometry>
+          <box>
+            <size>1.0 0.3 1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.0 0.3 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='base_07'>
+      <pose>-18.75 -32.5 -2 0 0 0</pose>
+      <visual name='base_06_visual'>
+        <geometry>
+          <box>
+            <size>1.0 0.2 1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.0 0.2 1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+
+    <link name='step_01'>
+      <pose>-5.25 -32.65 -1.525 0 0 0</pose>
+      <visual name='step_01_visual'>
+        <geometry>
+          <box>
+            <size>1.9 0.25 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.9 0.25 0.15</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='step_02'>
+      <pose>-5.25 -32.80 -1.675 0 0 0</pose>
+      <visual name='step_01_visual'>
+        <geometry>
+          <box>
+            <size>1.9 0.40 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.9 0.4 0.15</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='step_03'>
+      <pose>-5.25 -32.95 -1.825 0 0 0</pose>
+      <visual name='step_03_visual'>
+        <geometry>
+          <box>
+            <size>1.9 0.55 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.9 0.55 0.15</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='step_04'>
+      <pose>-5.25 -33.10 -1.975 0 0 0</pose>
+      <visual name='step_04_visual'>
+        <geometry>
+          <box>
+            <size>1.9 0.7 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.9 0.7 0.15</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='step_05'>
+      <pose>-5.25 -33.25 -2.125 0 0 0</pose>
+      <visual name='step_05_visual'>
+        <geometry>
+          <box>
+            <size>1.9 0.85 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.9 0.85 0.15</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='step_06'>
+      <pose>-5.25 -33.40 -2.275 0 0 0</pose>
+      <visual name='step_06_visual'>
+        <geometry>
+          <box>
+            <size>1.9 1.0 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.9 1.0 0.15</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='step_07'>
+      <pose>-5.25 -33.55 -2.425 0 0 0</pose>
+      <visual name='step_07_visual'>
+        <geometry>
+          <box>
+            <size>1.9 1.15 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1.9 1.15 0.15</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='ramp_01'>
+      <pose>2.0 -41 -2 0 0 0</pose>
+      <visual name='ramp_01_visual'>
+        <geometry>
+          <box>
+            <size>2.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_02'>
+      <pose>3.5 -42.5 -2 0 0 1.57</pose>
+      <visual name='ramp_02_visual'>
+        <geometry>
+          <box>
+            <size>4.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_03'>
+      <pose>3.0 -45.0 -2 0 0 0</pose>
+      <visual name='ramp_03_visual'>
+        <geometry>
+          <box>
+            <size>2.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_04'>
+      <pose>2.5 -47.5 -2 0 0 1.57</pose>
+      <visual name='ramp_04_visual'>
+        <geometry>
+          <box>
+            <size>4.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_05'>
+      <pose>4.0 -50.0 -2 0 0 0</pose>
+      <visual name='ramp_05_visual'>
+        <geometry>
+          <box>
+            <size>4.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_06'>
+      <pose>5.5 -46.5 -2 0 0 1.57</pose>
+      <visual name='ramp_06_visual'>
+        <geometry>
+          <box>
+            <size>6.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>6.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>   
+    <link name='ramp_07'>
+      <pose>5.5 -40.5 -2 0 0 1.57</pose>
+      <visual name='ramp_07_visual'>
+        <geometry>
+          <box>
+            <size>6.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>6.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_08'>
+      <pose>4.5 -37 -2 0 0 1.57</pose>
+      <visual name='ramp_08_visual'>
+        <geometry>
+          <box>
+            <size>3.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_09'>
+      <pose>5.5 -35 -2 0 0 0</pose>
+      <visual name='ramp_09_visual'>
+        <geometry>
+          <box>
+            <size>3.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_10'>
+      <pose>7.0 -34.5 -2 0 0 1.57</pose>
+      <visual name='ramp_10_visual'>
+        <geometry>
+          <box>
+            <size>2.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_11'>
+      <pose>4.5 -33 -2 0 0 0</pose>
+      <visual name='ramp_11_visual'>
+        <geometry>
+          <box>
+            <size>6.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>6.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_12'>
+      <pose>2.15 -36 -2 0 0 1.57</pose>
+      <visual name='ramp_12_visual'>
+        <geometry>
+          <box>
+            <size>5.0 0.2 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5.0 0.2 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_13'>
+      <pose>2.85 -36 -2 0 0 1.57</pose>
+      <visual name='ramp_13_visual'>
+        <geometry>
+          <box>
+            <size>5.0 0.2 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5.0 0.2 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='ramp_14'>
+      <pose>2.0 -39 -2 0 0 0</pose>
+      <visual name='ramp_14_visual'>
+        <geometry>
+          <box>
+            <size>2.0 1.0 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/wood.jpg</albedo_map>
+              <normal_map>materials/textures/wood.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2.0 1.0 1.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <model name="rampon_1">
+      <static>true</static>
+      <pose>0 -39 -2.05 0 -0.45 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2.3 1.0 .1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2.3 1.0 .1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="rampon_2">
+      <static>true</static>
+      <pose>0 -41 -2.05 0 -0.45 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2.3 1.0 .1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2.3 1.0 .1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="rampon_3">
+      <static>true</static>
+      <pose>5.5 -40 -1.05 0 0.45 1.57</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2.3 1.0 .1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2.3 1.0 .1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="rampon_4">
+      <static>true</static>
+      <pose>5.5 -47 -1.05 0 -0.45 1.57</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2.3 1.0 .1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2.3 1.0 .1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="ramp_15">
+      <static>true</static>
+      <pose>5.5 -43.5 -1.0 0 0 1.57</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>5.0 1.0 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>5.0 1.0 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <diffuse>1.0 1.0 1.0</diffuse>
+            <specular>1.0 1.0 1.0</specular>
+            <pbr>
+              <metal>
+                <albedo_map>materials/textures/wood.jpg</albedo_map>
+                <normal_map>materials/textures/wood.jpg</normal_map>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <link name='floor_01'>
+      <pose>-7.5 -12.5 -2.49 0 0 0</pose>
+      <visual name='floor_01_visual'>
+        <geometry>
+          <box>
+            <size>30.0 80.0 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>30.0 80.0 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='floor_02'>
+      <pose>-7.5 -2.5 -1.49 0 0 0</pose>
+      <visual name='floor_02_visual'>
+        <geometry>
+          <box>
+            <size>30.0 60.0 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>30.0 60.0 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='grass_side'>
+      <pose>-7.5 32.5 -1.50 0 0 0</pose>
+      <visual name='grass_side_visual'>
+        <geometry>
+          <box>
+            <size>30.0 10.0 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/grass.jpg</albedo_map>
+              <normal_map>materials/textures/grass.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>30.0 10.0 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='path_side_entrance'>
+      <pose>-9.5 32.5 -1.48 0 0 0</pose>
+      <visual name='path_side_entrance_visual'>
+        <geometry>
+          <box>
+            <size>4.0 10.0 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.0 10.0 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='sidewalk_side_entrance'>
+      <pose>-17.5 40.0 -1.48 0 0 0</pose>
+      <visual name='sidewalk_side_entrance_visual'>
+        <geometry>
+          <box>
+            <size>60.0 5.0 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>60.0 5.0 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='sidewalk_side_entrance_step'>
+      <pose>-17.5 42.5 -1.51 0 0 0</pose>
+      <visual name='sidewalk_side_entrance_step_visual'>
+        <geometry>
+          <box>
+            <size>60.0 0.1 0.1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.3 0.3 0.3 1</diffuse>
+          <specular>0.3 0.3 0.3 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>60.0 0.1 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='sidewalk_back'>
+      <pose>10.0 -7.5 -1.48 0 0 0</pose>
+      <visual name='sidewalk_back_visual'>
+        <geometry>
+          <box>
+            <size>5.0 90.0 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5.0 90.0 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='sidewalk_back_step'>
+      <pose>12.5 -4.975 -1.51 0 0 0</pose>
+      <visual name='sidewalk_back_step_visual'>
+        <geometry>
+          <box>
+            <size>0.1 95.05 0.1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.3 0.3 0.3 1</diffuse>
+          <specular>0.3 0.3 0.3 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 95.05 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='grass_front'>
+      <pose>-27.5 -7.5 -1.50 0 0 0</pose>
+      <visual name='grass_front_visual'>
+        <geometry>
+          <box>
+            <size>10.0 90.0 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/grass.jpg</albedo_map>
+              <normal_map>materials/textures/grass.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.0 90.0 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='grass_front_2'>
+      <pose>-42.5 -7.5 -1.50 0 0 0</pose>
+      <visual name='grass_front_2_visual'>
+        <geometry>
+          <box>
+            <size>10.0 90.0 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/grass.jpg</albedo_map>
+              <normal_map>materials/textures/grass.jpg</normal_map>
+            </metal>
+          </pbr>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.0 90.0 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+
+
+    <link name='path_front'>
+      <pose>-35.0 -7.5 -1.48 0 0 0</pose>
+      <visual name='path_front_visual'>
+        <geometry>
+          <box>
+            <size>5.0 90.0 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5.0 90.0 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name='path_entrance'>
+      <pose>-27.5 -30.0 -1.48 0 0 0</pose>
+      <visual name='path_entrance_visual'>
+        <geometry>
+          <box>
+            <size>10.0 5.0 0.02</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.0 5.0 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+
+
+
+
+    <static>1</static>
+  </model>
+</sdf>

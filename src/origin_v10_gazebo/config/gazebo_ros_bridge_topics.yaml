@@ -1,0 +1,97 @@
+- ros_topic_name: "clock"
+  gz_topic_name: "clock"
+  ros_type_name: "rosgraph_msgs/msg/Clock"
+  gz_type_name: "gz.msgs.Clock"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "tf"
+  gz_topic_name: "/robot/tf"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/robot/cmd_vel"
+  gz_topic_name: "/robot/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_type_name: "gz.msgs.Twist"
+  subscriber_queue: 5 
+  publisher_queue: 6 
+  lazy: true 
+  direction:
+    ROS_TO_GZ
+
+- ros_topic_name: "/robot/odom"
+  gz_topic_name: "/robot/odom"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  subscriber_queue: 5 
+  publisher_queue: 6 
+  lazy: true 
+  direction:
+    GZ_TO_ROS
+
+- ros_topic_name: "/robot/gnss/fix_off"
+  gz_topic_name: "/robot/gnss"
+  ros_type_name: "sensor_msgs/msg/NavSatFix"
+  gz_type_name: "gz.msgs.NavSat"
+  subscriber_queue: 5 
+  publisher_queue: 6 
+  lazy: true 
+  direction:
+    GZ_TO_ROS 
+    
+- ros_topic_name: "camera/color/camera_info"
+  gz_topic_name: "/robot/camera/camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "gz.msgs.CameraInfo"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "camera/color/image_raw"
+  gz_topic_name: "/robot/camera/image"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  subscriber_queue: 1 
+  publisher_queue: 1 
+  lazy: true 
+  direction:
+    GZ_TO_ROS 
+
+- ros_topic_name: "camera/depth/image_raw"
+  gz_topic_name: "/robot/camera/depth_image"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  subscriber_queue: 1 
+  publisher_queue: 1 
+  lazy: true 
+  direction:
+    GZ_TO_ROS 
+
+- ros_topic_name: "camera/depth/points"
+  gz_topic_name: "/robot/camera/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  subscriber_queue: 1 
+  publisher_queue: 1 
+  lazy: true 
+  direction:
+    GZ_TO_ROS 
+
+- ros_topic_name: "/robot/points"
+  gz_topic_name: "/robot/lidar/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  subscriber_queue: 1
+  publisher_queue: 1 
+  lazy: true 
+  direction:
+    GZ_TO_ROS 
+
+- ros_topic_name: "/robot/joint_states"
+  gz_topic_name: "/robot/joint_states"
+  ros_type_name: "sensor_msgs/msg/JointState"
+  gz_type_name: "gz.msgs.Model"
+  subscriber_queue: 1 
+  publisher_queue: 1 
+  lazy: true 
+  direction:
+    GZ_TO_ROS 

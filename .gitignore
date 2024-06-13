@@ -1,0 +1,10 @@
+# Exceptions
+## Folders
+build/*
+install/*
+log/*
+
+## File types
+*.pyc
+
+.DS_Store
