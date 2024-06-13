@@ -1,0 +1,3 @@
+[submodule "src/origin_v10_description"]
+	path = src/origin_v10_description
+	url = git@github.com:avular-robotics/origin_v10_description.git
