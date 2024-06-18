@@ -9,17 +9,19 @@ After making sure that ROS2 Humble is installed, install Gazebo Fortress on your
 
 ```
 sudo apt update
-sudo apt install ros-humble-ros-gz
+sudo apt install ros-humble-ros-gz git-lfs
 ```
 
 To get started with the Avular Origin Simulation, clone this repository on your computer:
 ```
 git clone --recursive git@github.com:avular-robotics/avular_origin_simulation.git
+cd avular_origin_simulation/src/avular_origin_description
+git lfs pull
 ```
 
-Next, enter the repository folder and build the packages in the workspace:
+Next, go to the top level repository folder and build the packages in the workspace:
 ```
-cd avular_origin_simulation
+cd <top-level-repository-folder>
 colcon build --symlink-install
 ```
 
