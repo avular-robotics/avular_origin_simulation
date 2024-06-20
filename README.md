@@ -14,7 +14,7 @@ sudo apt install ros-humble-ros-gz git-lfs
 
 To get started with the Avular Origin Simulation, clone this repository on your computer:
 ```
-git clone --recursive git@github.com:avular-robotics/avular_origin_simulation.git
+git clone --recursive https://github.com/avular-robotics/avular_origin_simulation.git
 cd avular_origin_simulation/src/avular_origin_description
 git lfs pull
 ```
