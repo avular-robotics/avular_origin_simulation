@@ -40,8 +40,8 @@ def generate_launch_description():
     ld.add_action(DeclareLaunchArgument("robot_pose_yaw", default_value="0.0"))
 
     ros_gz_sim = get_package_share_directory("ros_gz_sim")
-    pkg_dir = get_package_share_directory("origin_v10_gazebo")
-    pkg_dir_origin_description = get_package_share_directory("origin_v10_description")
+    pkg_dir = get_package_share_directory("origin_one_gazebo")
+    pkg_dir_origin_description = get_package_share_directory("origin_one_description")
 
     os.environ["IGN_GAZEBO_RESOURCE_PATH"] = (
         os.path.join(pkg_dir, "models")
@@ -71,7 +71,7 @@ def generate_launch_description():
     )
 
     sdf_file_path = PathJoinSubstitution(
-        [pkg_dir_origin_description, "urdf", "origin_v10.urdf"]
+        [pkg_dir_origin_description, "urdf", "origin_one.urdf"]
     )
 
     ld.add_action(
@@ -122,7 +122,7 @@ def generate_launch_description():
 
     ld.add_action(
         Node(
-            package="origin_v10_gazebo",
+            package="origin_one_gazebo",
             executable="robot_specifics",
             arguments=[],
             output="screen",

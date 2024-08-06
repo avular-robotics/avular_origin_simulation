@@ -1,6 +1,6 @@
 # Avular Origin simulation
 
-This repository contains the simulation environment for the Avular Origin V1.0, using Gazebo Fortress and ROS2 Humble.
+This repository contains the simulation environment for the Avular Origin One, using Gazebo Fortress and ROS2 Humble.
 
 ## Getting started
 
@@ -12,28 +12,35 @@ sudo apt update
 sudo apt install ros-humble-ros-gz git-lfs
 ```
 
-To get started with the Avular Origin Simulation, clone this repository on your computer:
+To get started with the Avular Origin Simulation, first make a ROS workspace on your computer (for instructions, see [the ROS tutorial](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html).
+Next, go to the 'src' folder of your workspace and clone this repository:
+
 ```
-git clone --recursive https://github.com/avular-robotics/avular_origin_simulation.git
-cd avular_origin_simulation/src/avular_origin_description
+cd <your-ros-workspace>/src
+git clone https://github.com/avular-robotics/avular_origin_simulation.git
+```
+
+In the same `src` folder, we also need to clone the `avular_origin_description` repository, which contains the URDF and meshes for the Origin One robot:
+```
+git clone https://github.com/avular-robotics/avular_origin_simulation.git
 git lfs pull
 ```
 
-Next, go to the top level repository folder and build the packages in the workspace:
+Next, go to the top level workspace folder and build the packages in the workspace:
 ```
-cd <top-level-repository-folder>
+cd <your-ros-workspace>
 colcon build --symlink-install
 ```
 
 You can now source the workspace (so ROS knows where to find the packages) and launch the simulation environment:
 ```
 source install/setup.bash
-ros2 launch origin_v10_gazebo ty_test_area.launch.py
+ros2 launch origin_one_gazebo ty_test_area.launch.py
 ```
-This will show the avular simulation environment in Gazebo Fortress, with the Origin V1.0 spawned.
+This will show the avular simulation environment in Gazebo Fortress, with the Origin One spawned.
 If you want to launch the simulation without sourcing each time, you can source the setup file in your bashrc:
 ```
-echo "source <path_to_repo>/install/setup.bash" >> ~/.bashrc
+echo "source <path_to_workspace>/install/setup.bash" >> ~/.bashrc
 ```
 
 ![image](./doc/img/simulation.png)
@@ -42,7 +49,7 @@ echo "source <path_to_repo>/install/setup.bash" >> ~/.bashrc
 
 The simulation contains gazebo plugins for the drive controller, the Ouster LiDAR and the realsense camera. To visualize the robot and its sensors, you can use the RViz visualization tool. To launch RViz with the correct configuration, run the following command:
 ```
-ros2 launch origin_v10_description robot_visualization_rviz.launch.py
+ros2 launch origin_one_description robot_visualization_rviz.launch.py
 ```
 
 This will open RViz with the robot model and the sensor data. You can now drive the robot around in the simulation by publishing Twist messages to the `/robot/cmd_vel` topic. For example by using the `teleop_twist_keyboard` package:
