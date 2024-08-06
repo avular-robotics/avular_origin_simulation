@@ -1,10 +1,10 @@
 # Avular Origin simulation
 
-This repository contains the simulation environment for the Avular Origin V1.0, using Gazebo Fortress and ROS2 Humble.
+This repository contains the simulation environment for the Avular Origin One, using Gazebo Fortress and ROS2 Humble.
 
 ## Getting started
 
-We currently support ROS2 Humble. For installing ROS2 Humble on your system, refer to the [ROS2 Humble installation guide](https://docs.ros.org/en/humble/Installation.html).
+We currently only support ROS2 Humble on Ubuntu 22.04. For installing ROS2 Humble on your system, refer to the [ROS2 Humble installation guide](https://docs.ros.org/en/humble/Installation.html).
 After making sure that ROS2 Humble is installed, install Gazebo Fortress on your system:
 
 ```
@@ -12,28 +12,46 @@ sudo apt update
 sudo apt install ros-humble-ros-gz git-lfs
 ```
 
-To get started with the Avular Origin Simulation, clone this repository on your computer:
+To get started with the Avular Origin Simulation, first make a ROS workspace on your computer (for instructions, see [the ROS tutorial](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html)).
+Next, go to the 'src' folder of your workspace and clone this repository:
+
 ```
-git clone --recursive https://github.com/avular-robotics/avular_origin_simulation.git
-cd avular_origin_simulation/src/avular_origin_description
+cd <your-ros-workspace>/src
+git clone https://github.com/avular-robotics/avular_origin_simulation.git
+```
+
+In the same `src` folder, we also need to clone the `avular_origin_description` repository, which contains the URDF and meshes for the Origin One robot:
+```
+git clone https://github.com/avular-robotics/avular_origin_description.git
+cd avular_origin_description
 git lfs pull
 ```
 
-Next, go to the top level repository folder and build the packages in the workspace:
+Finally, we need to install debian packages for the cmd_vel_controller, which the Origin One uses to prioritize various control command inputs.
+To do so, go to the `cmd_vel_controller` folder in this repository and use `apt` to install the binary packages:
+
 ```
-cd <top-level-repository-folder>
+cd <your-ros-workspace>/src/avular_origin_simulation/cmd_vel_controller/
+sudo apt install ./loggercxx_3.0.0_amd64.deb ./rclcpp-avular_3.0.0_amd64.deb ./origin-msgs_1.0.0_amd64.deb ./cmd-vel-controller_1.7.1_amd64.deb
+```
+
+Next, go to the top level workspace folder and build the packages in the workspace:
+```
+cd <your-ros-workspace>
 colcon build --symlink-install
 ```
+
+This will generate a warning that easy_install is deprecated, which can be ignored.
 
 You can now source the workspace (so ROS knows where to find the packages) and launch the simulation environment:
 ```
 source install/setup.bash
-ros2 launch origin_v10_gazebo ty_test_area.launch.py
+ros2 launch origin_one_gazebo ty_test_area.launch.py use_cmd_vel_controller:=True
 ```
-This will show the avular simulation environment in Gazebo Fortress, with the Origin V1.0 spawned.
+This will show the avular simulation environment in Gazebo Fortress, with the Origin One spawned.
 If you want to launch the simulation without sourcing each time, you can source the setup file in your bashrc:
 ```
-echo "source <path_to_repo>/install/setup.bash" >> ~/.bashrc
+echo "source <path_to_workspace>/install/setup.bash" >> ~/.bashrc
 ```
 
 ![image](./doc/img/simulation.png)
@@ -42,7 +60,7 @@ echo "source <path_to_repo>/install/setup.bash" >> ~/.bashrc
 
 The simulation contains gazebo plugins for the drive controller, the Ouster LiDAR and the realsense camera. To visualize the robot and its sensors, you can use the RViz visualization tool. To launch RViz with the correct configuration, run the following command:
 ```
-ros2 launch origin_v10_description robot_visualization_rviz.launch.py
+ros2 launch origin_one_description origin_one_rviz.launch.py
 ```
 
 This will open RViz with the robot model and the sensor data. You can now drive the robot around in the simulation by publishing Twist messages to the `/robot/cmd_vel` topic. For example by using the `teleop_twist_keyboard` package:

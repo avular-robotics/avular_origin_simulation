@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>origin_v10_gazebo</name>
+  <name>origin_one_gazebo</name>
   <version>0.0.0</version>
   <description> Gazebo simulation models for the Avular Origin V1.0 </description>
   <maintainer email="j.sijs@avular.com">Joris Sijs</maintainer>
@@ -10,7 +10,7 @@
   <license> proprietary </license>
 
   <depend>cmd_vel_controller</depend>
-  <depend>origin_v10_description</depend>
+  <depend>origin_one_description</depend>
   <depend>ros_gz_sim</depend>
   <depend>ros_gz_bridge</depend>
   <depend>std_msgs</depend>
