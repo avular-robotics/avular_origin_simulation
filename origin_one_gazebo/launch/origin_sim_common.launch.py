@@ -121,6 +121,13 @@ def generate_launch_description():
     )
 
     ld.add_action(
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                os.path.join(pkg_dir_origin_description, "launch", "origin_one_description.launch.py")
+            )
+        )
+    )
+    ld.add_action(
         Node(
             package="origin_one_gazebo",
             executable="robot_specifics",
@@ -239,12 +246,7 @@ def generate_launch_description():
             executable="cmd_vel_controller",
             name="cmd_vel_controller",
             namespace="robot",
-            parameters=[
-                os.path.join(pkg_dir_origin_description, "config", "cmd_vel_controller.yaml"),
-                {
-                    "use_sim_time": True,
-                },
-            ],
+            parameters=[PathJoinSubstitution([pkg_dir_origin_description, "config", "cmd_vel_controller.yaml"])],
             respawn=True,
             respawn_delay=1.0,
         )
