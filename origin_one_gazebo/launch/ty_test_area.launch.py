@@ -30,7 +30,7 @@ def generate_launch_description():
             [
                 PathJoinSubstitution(
                     [
-                        FindPackageShare("origin_v10_gazebo"),
+                        FindPackageShare("origin_one_gazebo"),
                         "launch",
                         "origin_sim_common.launch.py",
                     ]

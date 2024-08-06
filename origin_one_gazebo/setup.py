@@ -2,7 +2,7 @@ import os  # Operating system library
 from glob import glob  # Handles file path names
 from setuptools import setup  # Facilitates the building of packages
 
-package_name = "origin_v10_gazebo"
+package_name = "origin_one_gazebo"
 
 # Path of the current directory
 cur_directory_path = os.path.abspath(os.path.dirname(__file__))
@@ -44,7 +44,7 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            "robot_specifics = origin_v10_gazebo.origin_specifics:main",
+            "robot_specifics = origin_one_gazebo.origin_specifics:main",
         ],
     },
 )
