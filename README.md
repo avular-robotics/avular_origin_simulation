@@ -27,7 +27,8 @@ cd avular_origin_description
 git lfs pull
 ```
 
-Finally, we need to install debian packages for the cmd_vel_controller, which the Origin One uses to prioritize various control command inputs.
+Finally, we can install debian packages for the cmd_vel_controller, which the real Origin One robot uses to prioritize various control command inputs.
+This step is optional, but recommended if you want the simulation to behave similar to the real robot, or if you want to use Avular example code. 
 To do so, go to the `cmd_vel_controller` folder in this repository and use `apt` to install the binary packages:
 
 ```
@@ -48,7 +49,13 @@ You can now source the workspace (so ROS knows where to find the packages) and l
 source install/setup.bash
 ros2 launch origin_one_gazebo ty_test_area.launch.py use_cmd_vel_controller:=True
 ```
+Note that you can set `use_cmd_vel_controller` to `False` if you don't want to use the cmd_vel_controller package.
+Alternatively, the simulation can also be launched with the mecanum wheel configuration on the robot:
+```
+ros2 launch origin_one_gazebo ty_test_area.launch.py use_cmd_vel_controller:=True drive_configuration:=mecanum_drive
+```
 This will show the avular simulation environment in Gazebo Fortress, with the Origin One spawned.
+You can now drag to mouse to change the view to the robot model.
 If you want to launch the simulation without sourcing each time, you can source the setup file in your bashrc:
 ```
 echo "source <path_to_workspace>/install/setup.bash" >> ~/.bashrc

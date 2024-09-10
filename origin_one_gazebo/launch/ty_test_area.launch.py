@@ -9,11 +9,12 @@
 
 from launch import LaunchDescription
 from launch.actions import (
+    DeclareLaunchArgument,
     IncludeLaunchDescription,
     SetLaunchConfiguration,
 )
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import PathJoinSubstitution
+from launch.substitutions import PathJoinSubstitution, LaunchConfiguration
 from launch_ros.substitutions import FindPackageShare
 
 
@@ -24,6 +25,9 @@ def generate_launch_description():
     robot_pose_x = SetLaunchConfiguration("robot_pose_x", "-18.75")
     robot_pose_y = SetLaunchConfiguration("robot_pose_y", "-34.8")
     robot_pose_yaw = SetLaunchConfiguration("robot_pose_yaw", "1.57")
+
+    drive_configuration = DeclareLaunchArgument(
+        "drive_configuration", default_value="skid_steer_drive")
 
     launch_origin_common = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -36,7 +40,10 @@ def generate_launch_description():
                     ]
                 )
             ]
-        )
+        ),
+        launch_arguments={
+            "drive_configuration": LaunchConfiguration("drive_configuration")
+        }.items(),
     )
 
     return LaunchDescription(
@@ -45,6 +52,7 @@ def generate_launch_description():
             robot_pose_x,
             robot_pose_y,
             robot_pose_yaw,
+            drive_configuration,
             launch_origin_common,
         ]
     )

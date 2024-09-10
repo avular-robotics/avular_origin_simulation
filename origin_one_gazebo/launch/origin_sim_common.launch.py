@@ -10,15 +10,19 @@
 import os
 from launch import LaunchDescription
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
+from launch_ros.substitutions import FindPackageShare
 from launch_ros.actions import Node
 from launch.conditions import IfCondition, UnlessCondition
 from launch.actions import (
     ExecuteProcess,
     DeclareLaunchArgument,
     IncludeLaunchDescription,
+    OpaqueFunction,
+    SetLaunchConfiguration
 )
 from ament_index_python.packages import get_package_share_directory
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+import xacro
 
 
 def generate_launch_description():
@@ -27,6 +31,7 @@ def generate_launch_description():
     ld.add_action(DeclareLaunchArgument("headless", default_value="false"))
     ld.add_action(DeclareLaunchArgument("spawn", default_value="true"))
     ld.add_action(DeclareLaunchArgument("world", default_value="TY_test_area.world"))
+    ld.add_action(DeclareLaunchArgument("drive_configuration", default_value="skid_steer_drive"))
     ld.add_action(
         DeclareLaunchArgument(
             "bridge_config", default_value="gazebo_ros_bridge_topics.yaml"
@@ -42,6 +47,7 @@ def generate_launch_description():
     ros_gz_sim = get_package_share_directory("ros_gz_sim")
     pkg_dir = get_package_share_directory("origin_one_gazebo")
     pkg_dir_origin_description = get_package_share_directory("origin_one_description")
+    xacro_file_path = "urdf/origin_one.urdf.xacro"
 
     os.environ["IGN_GAZEBO_RESOURCE_PATH"] = (
         os.path.join(pkg_dir, "models")
@@ -74,6 +80,15 @@ def generate_launch_description():
         [pkg_dir_origin_description, "urdf", "origin_one.urdf"]
     )
 
+    # Function to create the URDF description from the Xacro file
+    def create_urdf_description(context):
+        xacro_file = os.path.join(FindPackageShare("origin_one_description").find("origin_one_description"), xacro_file_path)
+        drive_configuration = LaunchConfiguration('drive_configuration').perform(context)
+        urdf = xacro.process_file(xacro_file, mappings={"drive_configuration": drive_configuration}).toxml()
+        return [SetLaunchConfiguration('urdf', urdf)]
+
+    ld.add_action(OpaqueFunction(function=create_urdf_description))
+    
     ld.add_action(
         Node(
             package="ros_gz_sim",
@@ -81,8 +96,8 @@ def generate_launch_description():
             arguments=[
                 "-name",
                 "Robot",
-                "-file",
-                sdf_file_path,
+                "-string",
+                LaunchConfiguration("urdf"),
                 "-x",
                 LaunchConfiguration("robot_pose_x"),
                 "-y",
