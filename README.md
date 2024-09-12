@@ -17,7 +17,7 @@ Next, go to the 'src' folder of your workspace and clone this repository:
 
 ```
 cd <your-ros-workspace>/src
-git clone https://github.com/avular-robotics/avular_origin_simulation.git
+git clone -b origin_1.0/0 https://github.com/avular-robotics/avular_origin_simulation.git
 ```
 
 In the same `src` folder, we also need to clone the `avular_origin_description` repository, which contains the URDF and meshes for the Origin One robot:
