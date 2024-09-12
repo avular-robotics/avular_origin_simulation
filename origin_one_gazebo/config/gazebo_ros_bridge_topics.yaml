@@ -40,13 +40,13 @@
   direction:
     GZ_TO_ROS 
     
-- ros_topic_name: "camera/color/camera_info"
+- ros_topic_name: "/robot/camera/color/camera_info"
   gz_topic_name: "/robot/camera/camera_info"
   ros_type_name: "sensor_msgs/msg/CameraInfo"
   gz_type_name: "gz.msgs.CameraInfo"
   direction: GZ_TO_ROS
 
-- ros_topic_name: "camera/color/image_raw"
+- ros_topic_name: "/robot/camera/color/image_raw"
   gz_topic_name: "/robot/camera/image"
   ros_type_name: "sensor_msgs/msg/Image"
   gz_type_name: "gz.msgs.Image"
@@ -56,7 +56,7 @@
   direction:
     GZ_TO_ROS 
 
-- ros_topic_name: "camera/depth/image_raw"
+- ros_topic_name: "/robot/camera/depth/image_raw"
   gz_topic_name: "/robot/camera/depth_image"
   ros_type_name: "sensor_msgs/msg/Image"
   gz_type_name: "gz.msgs.Image"
@@ -66,7 +66,7 @@
   direction:
     GZ_TO_ROS 
 
-- ros_topic_name: "camera/depth/points"
+- ros_topic_name: "/robot/camera/depth/points"
   gz_topic_name: "/robot/camera/points"
   ros_type_name: "sensor_msgs/msg/PointCloud2"
   gz_type_name: "gz.msgs.PointCloudPacked"
@@ -76,7 +76,7 @@
   direction:
     GZ_TO_ROS 
 
-- ros_topic_name: "/robot/points"
+- ros_topic_name: "/robot/lidar/points"
   gz_topic_name: "/robot/lidar/points"
   ros_type_name: "sensor_msgs/msg/PointCloud2"
   gz_type_name: "gz.msgs.PointCloudPacked"
