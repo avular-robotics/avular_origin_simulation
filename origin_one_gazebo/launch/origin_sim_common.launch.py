@@ -261,7 +261,7 @@ def generate_launch_description():
             executable="cmd_vel_controller",
             name="cmd_vel_controller",
             namespace="robot",
-            parameters=[PathJoinSubstitution([pkg_dir_origin_description, "config", "cmd_vel_controller.yaml"])],
+            parameters=[PathJoinSubstitution([pkg_dir, "config", "cmd_vel_controller.yaml"])],
             respawn=True,
             respawn_delay=1.0,
         )
