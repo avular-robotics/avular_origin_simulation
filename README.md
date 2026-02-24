@@ -17,7 +17,7 @@ Next, go to the 'src' folder of your workspace and clone this repository:
 
 ```
 cd <your-ros-workspace>/src
-git clone -b origin_1.0/1 https://github.com/avular-robotics/avular_origin_simulation.git
+git clone -b origin_1.0/2 https://github.com/avular-robotics/avular_origin_simulation.git
 ```
 
 In the same `src` folder, we also need to clone the `avular_origin_description` repository, which contains the URDF and meshes for the Origin One robot:
@@ -33,7 +33,7 @@ To do so, go to the `cmd_vel_controller` folder in this repository and use `apt`
 
 ```
 cd <your-ros-workspace>/src/avular_origin_simulation/cmd_vel_controller/
-sudo apt install ./loggercxx_3.0.0_amd64.deb ./rclcpp-avular_3.0.0_amd64.deb ./origin-msgs_1.0.0_amd64.deb ./cmd-vel-controller_1.7.1_amd64.deb
+sudo apt install ./loggercxx_3.3.0_amd64.deb ./rclcpp-avular_3.3.0_amd64.deb ./origin-msgs_2.3.0_amd64.deb ./cmd-vel-controller_1.7.2_amd64.deb ./rclcpp-mocks_3.3.1_amd64.deb
 ```
 
 Next, go to the top level workspace folder and build the packages in the workspace:

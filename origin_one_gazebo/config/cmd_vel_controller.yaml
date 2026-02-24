@@ -1,0 +1,53 @@
+/robot/cmd_vel_controller:
+  ros__parameters:
+    timeout_threshold: 1.0 # [s] Time threshold of no incoming messages after which an input is considered stale. This will result in a message with zeros being published, but the same state remains active.
+    topics:
+      out:
+        control_mode: "control_mode" # [origin_msgs::msg::ControlMode] Topic on which the current control mode is published (latching)
+        twist: "cmd_vel" # [geometry_msgs::msg::Twist] Topic on which the output twist is published
+    # State configurations
+    # Topic is the topic on which the incoming twist is received
+    # transitions_to describes which other states are accepted
+    # transitions to `none` and `previous` are always accepted
+    states:
+       # Remote control with (bluetooth) controller while having direct sight of the robot
+      manual:
+        topic: cmd_vel_joy
+        transitions_to: ["teleops", "docking", "manual_mapping"]
+        limiter:
+          velocity:
+            max_linear: 1.5 # [m/s] Maximum linear velocity
+            max_angular: 1.5 # [rad/s] Maximum angular velocity
+          acceleration:
+            max_linear: 1.5 # [m/s^2] Maximum linear acceleration
+            max_angular: 3.0 # [rad/s^2] Maximum angular acceleration
+          interpolation_rate: 10.0 # [Hz] Rate at which the output is interpolated
+      # Remotely control of the robot through a teleoperations connection
+      teleops:
+        topic: cmd_vel_teleop
+        transitions_to: ["manual", "docking"]
+      # Control by Avular Autopilot
+      autopilot:
+        topic: cmd_vel_aut
+        transitions_to: ["manual", "teleops", "docking", "user", "manual_mapping"]
+      # Control by Avular Autopilot while (un)docking
+      docking:
+        topic: cmd_vel_aut
+        transitions_to: ["autopilot", "user", "manual", "manual_mapping"]
+      # Control by custom software (customers or custom solutions)
+      user:
+        topic: cmd_vel_user
+        transitions_to: ["manual", "teleops", "docking", "autopilot", "manual_mapping"]
+      # Remote control with (bluetooth) controller while having direct sight of the robot, while manually mapping the 
+      # environment. This can reduce the maximum velocity and acceleration in order to imporve the quality of the map.
+      manual_mapping:
+        topic: cmd_vel_joy
+        transitions_to: ["docking"]
+        limiter:
+          velocity:
+            max_linear: 0.5 # [m/s] Maximum linear velocity
+            max_angular: 0.5 # [rad/s] Maximum angular velocity
+          acceleration:
+            max_linear: 0.5 # [m/s^2] Maximum linear acceleration
+            max_angular: 0.5 # [rad/s^2] Maximum angular acceleration
+          interpolation_rate: 10.0 # [Hz] Rate at which the output is interpolated
