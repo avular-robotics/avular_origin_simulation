@@ -1,8 +1,9 @@
 # Avular Origin simulation
 
-**This repository id deprecated. Please go to the new simulation repo supporting both Origin and Vertex:**
-
-**https://github.com/avular-robotics/avular_robot_simulation**
+> [!WARNING]
+> This repository is deprecated. Please go to the new simulation repo supporting both Origin and Vertex:
+>
+> [Avular robot simulation](https://github.com/avular-robotics/avular_robot_simulation)
 
 This repository contains the simulation environment for the Avular Origin One, using Gazebo Fortress and ROS2 Humble.
 
